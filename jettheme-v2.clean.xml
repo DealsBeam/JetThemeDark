@@ -1,0 +1,24 @@
+<!-- JetTheme v2 Cleaned Version -->
+<theme>
+    <style>
+        /* General Styles */
+        body {
+            /* Removed intrusive user-select: none for accessibility */
+            background-color: var(--background-color, #fff); /* Fallback to white */
+            color: var(--text-color, #000); /* Fallback to black */
+        }
+
+        /* Header Styles */
+        header {
+            background-color: var(--header-background, #f8f8f8); /* Fallback to light grey */
+        }
+
+        /* Navigation Styles */
+        nav {
+            display: flex;
+            justify-content: space-between;
+        }
+
+        /* Add more styles with sensible fallbacks as needed */
+    </style>
+</theme>
